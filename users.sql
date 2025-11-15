@@ -8,9 +8,9 @@ ei.office_id ,
 ec.phone_number_1 as phone,
 ei.department_id,
 ei.position_id
-from  arms_employee_stage.employee_bio eb
-left join arms_employee_stage.employee_contact ec
+from  employee_bios eb
+left join employee_contacts ec
 on eb.user_id = ec.user_id
-left join arms_employee_stage.employee_info ei
+left join employee_infos ei
 on eb.user_id = ei.user_id and ei.active = true
 where eb.deleted = false;
