@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="procurement_db_local@localhost" group="postgres/arms_local" uuid="16ea1b5b-f3d2-404b-92c7-8f8a364c0a2d">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/procurement_db_local</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="arms_procurement_pro_test@amalitech-inhouse.ck0dwzfc16xf.eu-west-1.rds.amazonaws.com" group="postgres/arms_deployed" uuid="a7930f1b-caa0-4d18-856d-ec042a6f3e11">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://amalitech-inhouse.ck0dwzfc16xf.eu-west-1.rds.amazonaws.com:5432/arms_procurement_pro_test</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+  </component>
+</project>
