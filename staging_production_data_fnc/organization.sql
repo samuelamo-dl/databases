@@ -1,0 +1,1 @@
+SELECT id, client_name AS name, archive AS archived FROM client WHERE "isOrganization" = true and archive = false

@@ -1,0 +1,1 @@
+SELECT setval('particulars_sequence', (SELECT MAX(id) FROM particulars));

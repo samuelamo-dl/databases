@@ -1,0 +1,1 @@
+select journal_id, id as particulars_id from particulars p

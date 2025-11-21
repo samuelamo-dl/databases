@@ -1,0 +1,1 @@
+SELECT id, department_name, deleted, codename FROM departments

@@ -1,0 +1,1 @@
+SELECT id, organization_id, office_name, archive AS archived FROM office
